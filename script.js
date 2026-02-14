@@ -1,6 +1,6 @@
 const title = document.querySelector("h1");
 
-const text = "hi! i'm sakshi";
+const text = "hi! i'm Bhavika";
 let index = 0;
 
 title.textContent = "";
@@ -21,4 +21,5 @@ title.addEventListener("mouseover", () => {
 
 title.addEventListener("mouseout", () => {
   title.style.transform = "scale(1)";
+
 });
