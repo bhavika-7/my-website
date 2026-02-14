@@ -1,5 +1,5 @@
 body {
-  background-color: #f6c1ff;
+  background-color: #B7BDF7;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
 }
@@ -40,4 +40,5 @@ body {
 .avatar {
   width: 120px;
   margin-bottom: 20px;
+
 }
