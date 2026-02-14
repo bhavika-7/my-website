@@ -1,0 +1,43 @@
+body {
+  background-color: #f6c1ff;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.box {
+  margin-top: 150px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.links a:hover {
+  background: black;
+  color: white;
+}
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+  animation: float 4s ease-in-out infinite;
+  opacity: 0.7;
+}
+.avatar {
+  width: 120px;
+  margin-bottom: 20px;
+}
